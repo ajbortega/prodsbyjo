@@ -1,0 +1,130 @@
+.navbar-custom {
+        background-color: rgba(234, 180, 135, 0.993);
+      }
+      .collapse {
+        padding-left: 10px;
+      }
+      .navbar-nav {
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 15px;
+      }
+      .nav-link {
+        color: rgb(255, 254, 248);
+      }
+      .nav-link:hover {
+        color:  rgba(178, 147, 122, 0.993);
+      }
+      .nav-link.disabled {
+        color: rgb(234, 233, 227);
+      }
+
+      .footer {
+        text-align: center;
+        background-color: rgba(222, 165, 119, 0.993);
+        color:  rgb(255, 254, 248);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding-bottom: 1%;
+    }
+
+.clock {
+  border: 1px solid rgb(208, 163, 111);
+  color: rgb(255, 254, 248);
+  padding: 5px;
+  border-radius: 8px;
+  background-color: rgb(218, 135, 68);
+  margin-right: 10px;
+}
+
+#DATE {
+  font-size: 8px !important;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 0 5px 0;
+  margin-top: 0;
+}
+
+.clock ul {
+  list-style: none;
+  display: flex;
+  font-size: 30px;
+  gap: 5px;
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 0;
+  margin: 0;
+  margin-top: 0;
+  width: 100%;
+}
+
+.texter {
+    margin-top: 65px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.2;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+h3 {
+    font-weight: bolder;
+    color: rgb(218, 135, 68);
+}
+
+.twitter {
+    font-weight: bolder;
+    color: rgb(37, 185, 244);
+}
+
+.insta {
+    font-weight: bolder;
+    color: rgb(178, 56, 113);
+}
+
+.gmail {
+    font-weight: bolder;
+    color: rgb(138, 14, 14);
+}
+
+.fb {
+    font-weight: bolder;
+    color: rgb(23, 51, 130);
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+        gap: 0.8rem;
+    }
+
+    .clock {
+        font-size: 1.2rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .card {
+        padding: 1.4rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .clock {
+        font-size: 1rem;
+        padding: 0.7rem;
+    }
+
+    .menu-btn {
+        font-size: 1.5rem;
+    }
+
+    .card {
+        padding: 1rem;
+    }
+}
+
